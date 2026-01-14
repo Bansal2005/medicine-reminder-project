@@ -1,16 +1,21 @@
-# medicine_reminder
+# Medicine Reminder App (Flutter)
 
-A new Flutter project.
+A Flutter application that allows users to add medicines and receive reminders
+using local notifications.
 
-## Getting Started
+## Features
+- Add medicine name, dose, and time
+- Medicine list sorted by time
+- Local notifications (flutter_local_notifications)
+- Provider state management
+- Clean architecture (UI separated from logic)
 
-This project is a starting point for a Flutter application.
+## Tech Stack
+- Flutter
+- Dart
+- Provider
+- flutter_local_notifications
 
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
-
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## Note
+Notifications work reliably on physical Android devices.
+Android emulator notification behavior may vary.
